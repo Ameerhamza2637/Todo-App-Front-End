@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#maindiv
+{
+    width: 1347px;
+    height: 100vh;
+    background-color: rgb(250, 250, 250);
+}
+#nav
+{
+    width: 100%;
+    height: 5.5%;
+    background-color: rgb(128, 202, 126);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#body
+{
+    width: 100%;
+    height: 94.5%;
+    display: flex;
+    flex-direction: row;
+}
+#left
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#Lprofile
+{
+    width: 75%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+#Lbtn
+{
+    width: 90%;
+    height: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+#btn
+{
+    border: 1.5px solid rgb(28, 149, 248);
+    background-color: transparent;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    color: rgb(28, 149, 248);
+    font-weight: bold;
+}
+#Licons
+{
+    width: 100%;
+    height: 45%;
+    font-family: sans-serif;
+}
+.Licon_chunk
+{
+    width: 75%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+}
+#leftnum
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#Ldetails
+{
+    width: 75%;
+    height: 50%;
+    font-family: sans-serif;
+}
+#Ldetailchunks
+{
+    width: 78%;
+    height: 32%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+}
+#Ladds
+{
+    width: 100%;
+    height: 40%;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+#btn2
+{
+    border: 1.5px solid rgb(28, 149, 248);
+    background-color:rgb(28, 149, 248) ;
+    width: 190px;
+    height: 40px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 17px;
+}
+#right
+{
+    width: 27%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+#Rsuggestion
+{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#Rsuggpartition
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#filter
+{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#filter_input
+{
+    background-color: transparent;
+    width: 80%;
+    height: 70%;
+    border: none;
+}
+#Rdue
+{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sugg_task
+{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#sug_card
+{
+    width: 60%;
+    height: 7%;
+    /* border: 1px solid rgb(134, 134, 134); */
+    box-shadow: 0 0 2px rgb(134, 134, 134);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.sug_text
+{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+#center
+{
+    width: 53%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+#morning
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#date
+{
+    width: 100%;
+    height: 5%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#day
+{
+    width: 100%;
+    height: 3%;
+    font-family: sans-serif;
+    display: flex;
+}
+#meeting
+{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#list
+{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+#add
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.input
+{
+    width: 400px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid rgb(103, 164, 255);
+}
+#button1
+{
+    width: 80px;
+    height: 40px;
+    background-color: #2fa1ff;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: large;
+}
+#display
+{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.card
+{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgb(134, 134, 134);
+    margin: 10px;
+}

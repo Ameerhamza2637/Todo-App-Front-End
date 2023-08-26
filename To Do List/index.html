@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b2c993da99.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="maindiv">
+        <div id="nav">
+            <p>Any.do needs your permission to enable reminder and calendar notifications</p>
+        </div>
+        <div id="body">
+            <div id="left">
+                <div id="Lprofile">
+                    <div>
+                        <i class="fa-regular fa-user fa-xl" style="color: #080808;"></i>
+                    </div>
+                    <div>
+                        <p style="font-weight: bold;">Ameer</p>
+                        <p style="color: #b9b9b9;">Free plan</p>
+                    </div>
+                </div>
+                <div id="Lbtn">
+                    <button id="btn">Go Premium</button>
+                </div>
+                <div id="Licons">
+                    <div class="Licon_chunk">
+                        <i class="fa-regular fa-circle fa-lg" style="color: #00b3ff; line-height: 1em;"></i>
+                        <p>About now</p>
+                        <div id="leftnum">2</div>
+                    </div>
+                    <div class="Licon_chunk">
+                        <i class="fa-solid fa-calendar-days fa-lg" style="color: #00b3ff; line-height: 1em;"></i>
+                        <p>Next 7 day</p>
+                        <div id="leftnum">2</div>
+                    </div>
+                    <div class="Licon_chunk">
+                        <i class="fa-solid fa-sheet-plastic fa-lg" style="color: #00b3ff; line-height: 1em;"></i>
+                        <p>All my task</p>
+                        <div id="leftnum">2</div>
+                    </div>
+                    <div id="Ldetails">
+                        <div id="Ldetailchunks">
+                            <p style="font-weight: bold; font-size: larger;">My list</p>
+                            <i class="fa-solid fa-lock fa-sm" style="color: #dddddd; line-height:Ldetailchunks; left: 30px;"></i>
+                            <div></div>
+                        </div>
+                        <div id="Ldetailchunks">
+                            <p>Self task</p>
+                            <div id="leftnum">2</div>
+                            <div></div>
+                        </div>
+                        <div id="Ldetailchunks">
+                            <p>Work</p>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div></div>
+                    </div>
+                    <hr>
+                </div>
+                <div id="Ladds">
+                    <div>
+                        <h3>Work with you Teams</h3>
+                    </div>
+                    <div>
+                        <img style="width: 180px; height: 120px; background-color: transparent;" src="./images/add.jpg" alt="adds">
+                    </div>
+                    <div>
+                        <button id="btn2">Create Work Space</button>
+                    </div>
+                </div>
+            </div>
+            <div id="center">
+                <div id="morning">
+                    <p style="font-size: 33px; font-weight: bold;">Good morning, Ameer</p>
+                    <p style="font-size: 33px; font-weight: bold; color: #cfcdcd;">Be so good no one can ignore you</p>
+                </div>
+                <div style="font-weight: bold; color: #9c9c9c;" id="day">
+                    <p>FRI</p>
+                </div>
+                <div id="date">
+                    <div>
+                        <p style="font-size: 38px; font-weight: bold;">25</p>
+                    </div>
+                    <div id="meeting">
+                        <div>
+                            <p>Join meeting on one tap.</p>
+                        </div>
+                            
+                        <div>
+                            <a href="https://meet.google.com/"><p style="font-size: 12px; left:2px"> Tap to connect Google Meeting</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div style="color: #cfcfcf;" id="day">
+                    July
+                </div>
+                <div id="list">
+                    <div id="add">
+                        <div>
+                            <input  class="input" id="task" type="text" placeholder="Enter Title of the task">
+                        </div>
+                        <div>
+                            <button id="button1" onclick="display_task()">Add task</button>
+                        </div>
+                    </div>
+                    <div id="display">
+                        <div>
+                            <center><p style="font-family: sans-serif; font-size: large; color: #9c9c9c; font-weight: bold;">TO DO.</p></center>
+                        </div>
+                    </div>
+                    <!-- <div id="output"></div> -->
+                    <script src="script.js"></script>
+                </div>
+            </div>
+            <div id="right">
+                <div style="width: 100%; height: 3%;"></div>
+                <div id="Rsuggestion">
+                    <div id="Rsuggpartition">
+                        <div>
+                            <i class="fa-regular fa-lightbulb fa-xl"></i>
+                        </div>
+                        <div>
+                            <p style="font-size: 17px;">Suggestions</p>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-circle-down fa-lg"></i>
+                        </div>
+                    </div>
+                    <div id="Rsuggpartition" style="width: 35%;">
+                        <div>
+                            <i class="fa-solid fa-repeat fa-sm"></i>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-square fa-sm"></i>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-magnifying-glass fa-sm"></i>
+                        </div>
+                    </div>
+                </div>
+                <div id="filter">
+                    <input id="filter_input" type="text" placeholder="Filter">
+                    <hr style="width: 80%;">
+                </div>
+                <div id="sugg_task">
+                    <div id="sug_card">
+                        <p class="sug_text" onclick="display()"></p>
+                    </div>
+                    <div id="sug_card">
+                        <p class="sug_text" onclick="display()"></p>
+                    </div>
+                    <div id="sug_card">
+                        <p class="sug_text" onclick="display()"></p>
+                    </div>
+                    <div id="sug_card">
+                        <p class="sug_text" onclick="display()"></p>
+                    </div>
+                    <div id="sug_card">
+                        <p class="sug_text" onclick="display()"></p>
+                    </div>
+                    <div id="sug_card">
+                        <p class="sug_text" onclick="display()"></p>
+                    </div>
+                    <div id="sug_card">
+                        <p class="sug_text" onclick="display()"></p>
+                    </div>
+                    <div id="sug_card">
+                        <p class="sug_text" onclick="display()"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
